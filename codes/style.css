@@ -188,9 +188,9 @@
   }
   
   .movie-list-item-title {
-    background-color: rgba(51, 51, 51, 0);
+    background-color: rgba(201, 34, 34, 0);
     padding: 0 10px;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
     position: absolute;
     top: 10%;
@@ -201,7 +201,7 @@
   
   .movie-list-item-desc {
     background-color: rgba(51, 51, 51, 0);
-    padding: 10px;
+    padding: 20px;
     font-size: 14px;
     position: absolute;
     top: 30%;
@@ -213,14 +213,14 @@
   
   .movie-list-item-button {
     padding: 10px;
-    background-color: #4dbf00;
+    background-color: #bf0000;
     color: white;
     border-radius: 10px;
     outline: none;
     border: none;
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
+    bottom: 00px;
     left: 50px;
     opacity: 0;
     transition: 1s all ease-in-out;
