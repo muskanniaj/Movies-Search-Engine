@@ -137,8 +137,8 @@ header .logo
   z-index: 10;
   bottom: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: right;
 }
 .social li
 {
