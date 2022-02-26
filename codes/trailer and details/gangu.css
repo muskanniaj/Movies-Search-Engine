@@ -1,140 +1,20 @@
-.movie-list-container {
-  padding: 0 30px;
-}
-
-.movie-list-wrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-.movie-list {
-  display: flex;
-  align-items: center;
-  height: 300px;
-  transform: translateX(0);
-  transition: all 1s ease-in-out;
-}
-
-.movie-list-item {
-  margin-right: 30px;
-  position: relative;
-}
-
-.movie-list-item:hover .movie-list-item-img {
-  transform: scale(1.2);
-  margin: 0 30px;
-  opacity: 0.5;
-}
-
-.movie-list-item:hover .movie-list-item-title,
-.movie-list-item:hover .movie-list-item-desc,
-.movie-list-item:hover .movie-list-item-button {
-  opacity: 1;
-}
-
-.movie-list-item-img {
-  transition: all 1s ease-in-out;
-  width: 270px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 20px;
-}
-
-.movie-list-item-title {
-  background-color: rgba(201, 34, 34, 0);
-  padding: 0 10px;
-  font-size: 26px;
-  font-weight: bold;
-  position: absolute;
-  top: 10%;
-  left: 50px;
-  opacity: 0;
-  transition: 1s all ease-in-out;
-}
-
-.movie-list-item-desc {
-  background-color: rgba(51, 51, 51, 0);
-  padding: 20px;
-  font-size: 14px;
-  position: absolute;
-  top: 30%;
-  left: 50px;
-  width: 230px;
-  opacity: 0;
-  transition: 1s all ease-in-out;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial;
-  margin: 0 auto; /* Center website */
-  max-width: 800px; /* Max width */
-  padding: 20px;
+  padding-top: 70px;
+}
+.btn-grey{
+    background-color:#D8D8D8;
+	color:#FFF;
+}
+.rating-block{
+	background-color:#FAFAFA;
+	border:1px solid #EFEFEF;
+	padding:15px 15px 20px 15px;
+	border-radius:3px;
+}
+.bold{
+	font-weight:700;
+}
+.padding-bottom-7{
+	padding-bottom:7px;
 }
 
-.heading {
-  font-size: 25px;
-  margin-right: 25px;
-}
-
-.fa {
-  font-size: 25px;
-}
-
-.checked {
-  color: orange;
-}
-
-/* Three column layout */
-.side {
-  float: left;
-  width: 15%;
-  margin-top: 10px;
-}
-
-.middle {
-  float: left;
-  width: 70%;
-  margin-top: 10px;
-}
-
-/* Place text to the right */
-.right {
-  text-align: right;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The bar container */
-.bar-container {
-  width: 100%;
-  background-color: #f1f1f1;
-  text-align: center;
-  color: white;
-}
-
-/* Individual bars */
-.bar-5 {width: 60%; height: 18px; background-color: #e6c302;}
-.bar-4 {width: 30%; height: 18px; background-color: #e6c302;}
-.bar-3 {width: 10%; height: 18px; background-color: #e6c302;}
-.bar-2 {width: 4%; height: 18px; background-color: #e6c302;}
-.bar-1 {width: 15%; height: 18px; background-color: #e6c302;}
-
-/* Responsive layout - make the columns stack on top of each other instead of next to each other */
-@media (max-width: 400px) {
-  .side, .middle {
-    width: 100%;
-  }
-  /* Hide the right column on small screens */
-  .right {
-    display: none;
-  }
-}
