@@ -121,6 +121,23 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.overlay h2{
+    background: rgba(35, 70, 136, 0.377) none repeat scroll 0 0;
+    color: rgba(0, 0, 0, 0.925);
+    font-weight: 1000;
+    font-size: 60px;
+    margin: 5rem 5rem 0;
+    mix-blend-mode: overlay;
+    padding: 10px 25px;
+    text-align: center;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 .footer {
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("http://andreeabunget.co.uk/Img/footer.jpg");
@@ -311,4 +328,8 @@
     text-align:center;
     margin-top:100px;
     margin-bottom:100px;
+}
+.logo
+{
+margin-top: -155px;
 }
