@@ -1,0 +1,118 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgba(255, 0, 0, 0.767);
+  color: rgb(253, 253, 253);
+  padding: 1px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Allan&family=Rammetto+One&display=swap");
+body {
+  font-family: "Rammetto One", cursive;
+  text-transform: uppercase;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #ffffff;
+}
+button {
+  border: none;
+  background-color: #d623239a;
+  border-radius: 4px;
+  height: 3em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* video styles */
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+
+/* In case you want to disable the video 
+@media screen and (max-width: 400px) {
+  html {
+    background: url("https://images.unsplash.com/photo-1620222071550-a5c7f8b600ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMDY4NDIyNA&ixlib=rb-1.2.1&q=80&w=400");
+    background-size: cover;
+  }
+  .video-container {
+    display: none;
+  }
+}
